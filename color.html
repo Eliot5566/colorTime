@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>當下的顏色</title>
+    
+    <link rel="stylesheet" href="./color.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   
+    <script type="text/javascript" src="./color.js"></script>
+   
+</head>
+
+<body id="color_clock">
+    <div id="but">
+        <button id="change_timezone">更改時區位置</button>
+        <button id="reset_timezone">返回當前時區</button>
+    </div>
+
+    <div id="wrap">
+        <div id="container">
+            <h1>Current Time</h1>
+            <h1 id="time_title">The current time zone time is</h1>
+            <img id="image" src="" alt="圖片">
+            <div></div>
+            <div class="ticker">
+                <div class="current" id="cur_hour"></div>
+
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="ticker">
+                <div class="current" id="cur_min"></div>
+
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="ticker">
+                <div class="current" id="cur_sec"></div>
+
+            </div>
+
+            <h1 id="color_title">The current time zone color is</h1>
+
+            <div class="ticker" id="color_ticker">
+                <div class="current" id="cur_color"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
